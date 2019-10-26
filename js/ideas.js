@@ -1,0 +1,21 @@
+const ideas = [
+    "Start a seed library",
+    "Guerrilla garden",
+    "Buy second hand",
+    "Unionize",
+    "Listen to Boards of Canada 'Poppy Seed'",
+    "Visit a makerspace",
+    "Volunteer for your local Food Not Bombs",
+    "Grow flowers for your lover",
+    "Learn about Permaculture",
+    "Watch a studio Ghibli film",
+    "Learn about and support indigenous peoples in your communities",
+    'Read Octavia Butler',
+    'Read Ursula K. Le Guin',
+    'Be Kind',
+    'Make a pallet garden',
+    'Learn how to solder',
+    'Use open source technology',
+    'Use peer to peer technology',
+    'Mentor someone'
+  ]

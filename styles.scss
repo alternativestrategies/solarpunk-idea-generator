@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+
+//styling for the logo
+.logo {
+    background-color: #60F800;
+    border-radius: 100%;
+    margin: 40px auto;
+    height: 400px;
+    width: 400px;
+    @media(min-width: 300px){
+        height: 300px;
+        width: 300px;
+        font-size: 16px;
+    }
+    @media(min-width: 500px){
+        height: 400px;
+        width: 400px;
+        font-size: 20px; 
+    }
+    h1 {
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        line-height: 1.6;
+        text-transform: uppercase;
+        @media(min-width: 300px){
+            padding: 80px 60px;
+        }
+        @media(min-width: 500px){
+            padding: 105px 60px;
+        }
+    }
+} 
+
+//styling for the idea
+#idea {
+    // smargin: 0 auto 50px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.06em;
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    @media (min-width: 300px){
+        margin-left: 10px;
+        font-size: 30px;
+    }
+    @media (min-width: 500px){
+        font-size: 35px;
+
+    }
+}
+//styling for the button
+.generate{
+    margin: 0 auto;
+    @media (min-width: 300px){
+        width: 90%;
+    }
+    @media (min-width: 500px){
+        width: 80%;
+    }
+    @media (min-width: 700px){
+        width: 60%;
+    }
+    @media (min-width: 900px){
+        width: 450px;
+    }
+    button {
+        font-size: 35px;
+        font-family: 'Lato', sans-serif;
+        border-radius: 4px;
+        background-color: white;
+        border: 2px solid black;
+        height: 84px;
+        width: 100%;
+        text-transform: uppercase;
+        &:focus {
+            outline: 4px solid #60F800;
+        }
+        @media (min-width: 300px){
+            font-size: 30px;
+        }
+        @media (min-width: 500px){
+            font-size: 35px;
+            
+        }
+    }
+}
