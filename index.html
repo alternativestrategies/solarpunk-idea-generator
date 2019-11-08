@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,width=device-width">
     <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
     <title>Solarpunk Idea Generator</title>
 </head>
-<body onload="myFun()">
+<body onload="ideaGenerator()">
     <header class="logo">
         <h1>Solarpunk Idea Generator</h1>
     </header>
@@ -14,8 +17,9 @@
     <p id="idea"></p>
 
     <div class="generate">
-        <button id="button" onclick="myFun()">Generate Idea!</button>
+        <button id="button" onclick="ideaGenerator()">Generate Idea!</button>
     </div>
+<script src="./js/sketch.js"></script>
 <script src="./js/ideas.js"></script>    
 <script src="./js/script.js"></script>
 </body>
