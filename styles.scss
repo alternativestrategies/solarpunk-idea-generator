@@ -11,8 +11,7 @@ body {
 canvas {
     width: 100% !important;
     top: 0;
-    left: 0;
-    // top: -135px !important;   
+    left: 0;  
 }
 
 //styling for the logo
@@ -96,4 +95,8 @@ canvas {
             
         }
     }
+}
+
+a {
+    color: black;
 }

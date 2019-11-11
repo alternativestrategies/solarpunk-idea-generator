@@ -1,5 +1,33 @@
 const ideas = [
   {
+    "name": "lend the documentary 'Tomorrow' from your library",
+    "site": "https://www.tomorrow-documentary.com/"
+  },
+  {
+    "name": "start a compost heap or worm compost",
+    "site": "https://www.youtube.com/watch?v=pR9TzAK3jMo"
+  },
+  {
+    "name": "start a compost heap or worm compost",
+    "site": "https://www.youtube.com/watch?v=pR9TzAK3jMo"
+  },
+  {
+    "name": "listen to an episode of the Restart Radio podcast",
+    "site": "https://therestartproject.org/podcast/"
+  },
+  {
+    "name": "visibly mend clothing",
+    "site": "https://www.youtube.com/watch?v=FXBo-r0RwN4"
+  },
+  {
+    "name": "check out the sunbeam city wiki!",
+    "site": "https://wiki.sunbeam.city/doku.php"
+  },
+  {
+    "name": "repair something you were going to replace",
+    "site": ""
+  },
+  {
     "name": "Start a seed library",
     "site": ""
   },
@@ -75,9 +103,5 @@ const ideas = [
     "name": "Mentor someone",
     "site": ""
   }
-  // ,{
-  //   "name": ,
-  //   "site": ""
-  // },
      
   ]
